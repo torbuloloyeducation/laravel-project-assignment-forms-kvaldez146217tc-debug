@@ -1,0 +1,10 @@
+Task 1:
+    When the user types an email in the form and clicks submit, the form sends the email to the server using the POST. 
+    So the server checks if the email is correct. If its correct, the server saves it in session storage to remember it. 
+    And then the page reloads and shows all the saved emails so the user can see the emails they have sent.
+
+Reflection Answer:
+    1.GET sends data in the URL, while POST sends data hidden and is used to save information.
+    2.We use @csrf to protect forms from hackers.
+    3.Session is used to remember the emails you submit temporarily.
+    4.If the session is cleared, all saved emails are lost.
